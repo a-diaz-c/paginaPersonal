@@ -1,0 +1,28 @@
+ *{
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+ }
+
+ .portada{
+    background: url('../../../assets/portada.jpg') no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100% ;
+    text-align: center;
+}
+
+.titulos{
+    padding: 150px;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin-bottom: 50px;
+    font-size: 50px;
+}
